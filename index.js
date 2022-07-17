@@ -5,6 +5,6 @@
     'consumer-orders',
     'consumer-users',
     'provider-orders',
-    // 'provider-users'
+    'provider-users'
     ])
 })()
