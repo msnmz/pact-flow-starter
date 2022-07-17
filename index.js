@@ -1,5 +1,10 @@
 // Let's use async/await
 ;(async () => {
   const { runTests } = require('./runTest.js')
-  await runTests(['provider-orders', 'provider-users'])
+  await runTests([
+    'consumer-orders',
+    'consumer-users',
+    // 'provider-orders',
+    // 'provider-users'
+    ])
 })()
