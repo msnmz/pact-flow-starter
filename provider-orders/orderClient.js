@@ -8,9 +8,6 @@ const fetchOrders = () => {
         acc.push(new Order(o.id, o.items))
         return acc
       }, [])
-    },
-    err => {
-      throw new Error(`Error from response: ${err.body}`)
     }
   )
 }
