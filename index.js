@@ -4,7 +4,7 @@
   await runTests([
     'consumer-orders',
     'consumer-users',
-    // 'provider-orders',
+    'provider-orders',
     // 'provider-users'
     ])
 })()
